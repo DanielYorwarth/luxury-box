@@ -1,0 +1,7 @@
+.header {
+  @apply flex flex-wrap;
+
+  &__logo {
+    @apply w-32;
+  }
+}

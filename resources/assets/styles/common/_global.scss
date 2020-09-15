@@ -1,0 +1,39 @@
+@import url("https://use.typekit.net/wzi8cdr.css");
+
+@font-face {
+  font-family: "Canela", serif;
+  src: url(http://pagedev.co.uk/fonts/Canela-Medium.otf);
+}
+
+html,
+body,
+* {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply mb-2 leading-tight;
+
+  font-family: "Canela", serif;
+}
+
+p {
+  @apply mb-3 leading-normal;
+}
+
+a {
+  @apply text-primary no-underline border-b border-transparent;
+
+  transition: 0.2s ease;
+
+  &:hover {
+    @apply border-primary;
+  }
+}
